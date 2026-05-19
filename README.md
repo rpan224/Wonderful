@@ -3,9 +3,52 @@
 A data pipeline and search API that turns MariaCare's raw JSON database dump
 into a fast, **typo-tolerant** search service for doctors and clinics.
 
-Built to sit behind a future voice agent — so search terms are matched even
-when speech-to-text mistranscribes them (e.g. `Temisoara` resolves to
-`Timisoara`).
+---
+
+## Test it in 1 minute
+
+**Prerequisite:** Python 3.11 or newer.
+
+```bash
+git clone https://github.com/rpan224/Wonderful.git
+cd Wonderful
+pip install -r requirements.txt
+uvicorn api.main:app
+```
+
+Then open **http://127.0.0.1:8000/docs**
+
+That page is an interactive UI — you can run every endpoint from the browser,
+no tools needed. There is **no database setup step**: the API builds its
+database automatically the first time it starts.
+
+### Try these searches
+
+With the server running, click or paste any of these into your browser:
+
+| What it demonstrates | Link |
+|----------------------|------|
+| Plain search by city | http://127.0.0.1:8000/doctors?location=Brasov |
+| **Typo in city** — `Temisoara` still finds `Timisoara` | http://127.0.0.1:8000/doctors?location=Temisoara |
+| **Typo in speciality** — `Cardiologi` finds `Cardiology` | http://127.0.0.1:8000/doctors?speciality=Cardiologi |
+| **Typo in name** — `Dumitresku` finds `Dumitrescu` | http://127.0.0.1:8000/doctors?name=Dumitresku |
+| Filter — top-rated doctors in a city | http://127.0.0.1:8000/doctors?location=Buzau&min_rating=4.5 |
+| Clinics, searched with a typo'd city | http://127.0.0.1:8000/clinics?location=Konstanta |
+| Data freshness (last pipeline run) | http://127.0.0.1:8000/meta |
+
+Every search response includes a `query_interpretation` block showing how a
+mistyped term was resolved — e.g. `Temisoara` → `Timisoara` (score 88.9).
+
+### Alternative: run with Docker
+
+```bash
+docker build -t mariacare-api . && docker run -p 8000:8000 mariacare-api
+```
+
+### Alternative: a hosted URL
+
+`render.yaml` is included for a one-click cloud deploy — see
+[Deployment](#deployment) at the bottom.
 
 ---
 
@@ -69,39 +112,6 @@ threshold (80/100) → no confident match (returns nothing rather than guessing)
 
 ---
 
-## Quickstart
-
-Requires Python 3.11+.
-
-```bash
-pip install -r requirements.txt
-uvicorn api.main:app --reload
-```
-
-The API builds the SQLite database from the sample dump on first start, so
-there is no separate setup step. Then open:
-
-- **http://127.0.0.1:8000/docs** — interactive Swagger UI (try it here)
-- **http://127.0.0.1:8000/health** — liveness check
-
-### Run with Docker
-
-```bash
-docker build -t mariacare-api .
-docker run -p 8000:8000 mariacare-api
-```
-
-### Run the pipeline on its own
-
-The API auto-builds the database, but the pipeline is also a standalone job
-(this is what a daily cron would run):
-
-```bash
-python -m pipeline.ingest
-```
-
----
-
 ## API reference
 
 | Method | Path | Description |
@@ -132,42 +142,13 @@ All text parameters are **typo-tolerant**.
 | `order` | `asc` or `desc` (default `desc`) |
 | `limit` / `offset` | Pagination (default 20, max 100) |
 
-### Example requests
+### Run the pipeline on its own
+
+The API auto-builds the database, but the pipeline is also a standalone job
+(this is what a daily cron would run):
 
 ```bash
-# Exact search
-curl "http://127.0.0.1:8000/doctors?location=Brasov"
-
-# Typo-tolerant: "Temisoara" resolves to "Timisoara"
-curl "http://127.0.0.1:8000/doctors?location=Temisoara"
-
-# Typo + filter: "Nurology" -> "Neurology", rated 4+
-curl "http://127.0.0.1:8000/doctors?speciality=Nurology&min_rating=4"
-
-# Clinics in a city
-curl "http://127.0.0.1:8000/clinics?location=Buzau"
-```
-
-### How the response shows its work
-
-Every search response includes a `query_interpretation` block that reports how
-each term was resolved — so the caller (the agent) can confirm *"showing results
-for Timisoara"* instead of silently guessing:
-
-```json
-{
-  "count": 2,
-  "total": 2,
-  "query_interpretation": {
-    "location": {
-      "query": "Temisoara",
-      "matched": "Timisoara",
-      "score": 88.9,
-      "method": "fuzzy"
-    }
-  },
-  "results": [ ... ]
-}
+python -m pipeline.ingest
 ```
 
 ---
