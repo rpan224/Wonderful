@@ -22,22 +22,59 @@ That page is an interactive UI — you can run every endpoint from the browser,
 no tools needed. There is **no database setup step**: the API builds its
 database automatically the first time it starts.
 
-### Try these searches
+### Run a search — a worked example
 
-With the server running, click or paste any of these into your browser:
+A search is just a URL: the path `/doctors` with a `?parameter=value` on the
+end. Say you want to find doctors in a city — there are two ways to run it.
 
-| What it demonstrates | Link |
-|----------------------|------|
-| Plain search by city | http://127.0.0.1:8000/doctors?location=Brasov |
-| **Typo in city** — `Temisoara` still finds `Timisoara` | http://127.0.0.1:8000/doctors?location=Temisoara |
-| **Typo in speciality** — `Cardiologi` finds `Cardiology` | http://127.0.0.1:8000/doctors?speciality=Cardiologi |
-| **Typo in name** — `Dumitresku` finds `Dumitrescu` | http://127.0.0.1:8000/doctors?name=Dumitresku |
-| Filter — top-rated doctors in a city | http://127.0.0.1:8000/doctors?location=Buzau&min_rating=4.5 |
-| Clinics, searched with a typo'd city | http://127.0.0.1:8000/clinics?location=Konstanta |
-| Data freshness (last pipeline run) | http://127.0.0.1:8000/meta |
+**Option A — paste a URL in your browser.** Put this in the address bar:
 
-Every search response includes a `query_interpretation` block showing how a
-mistyped term was resolved — e.g. `Temisoara` → `Timisoara` (score 88.9).
+```
+http://127.0.0.1:8000/doctors?location=Iasi
+```
+
+You get back JSON: the doctors in that city, plus a `query_interpretation`
+block that shows how the city name was understood.
+
+**Option B — the interactive page.** Open `http://127.0.0.1:8000/docs`, click
+**`GET /doctors`**, click **"Try it out"**, type a city into the `location`
+box, and click **"Execute"** — the result appears right below.
+
+**The interesting part — typos still work.** The API is built for a voice
+agent, so a *misspelled* city still resolves to the right one:
+
+```
+http://127.0.0.1:8000/doctors?location=Temisoara
+```
+
+returns doctors in **Timisoara**, and the response explains itself:
+
+```json
+"query_interpretation": {
+  "location": { "query": "Temisoara", "matched": "Timisoara",
+                "score": 88.9, "method": "fuzzy" }
+}
+```
+
+### Searches to try
+
+With the server running, paste any of these into your browser:
+
+| Type this | What happens |
+|-----------|--------------|
+| `http://127.0.0.1:8000/doctors?location=Iasi` | exact match by city |
+| `http://127.0.0.1:8000/doctors?location=Temisoara` | typo → finds **Timisoara** |
+| `http://127.0.0.1:8000/doctors?location=Konstanta` | typo → finds **Constanta** |
+| `http://127.0.0.1:8000/doctors?speciality=Cardiologi` | typo → finds **Cardiology** |
+| `http://127.0.0.1:8000/doctors?name=Dumitresku` | typo → finds **Dumitrescu** |
+| `http://127.0.0.1:8000/doctors?location=Buzau&min_rating=4.5` | filter: top-rated doctors in a city |
+| `http://127.0.0.1:8000/clinics?location=Konstanta` | clinics in a (typo'd) city |
+| `http://127.0.0.1:8000/meta` | when the data was last refreshed |
+
+> **Tip for short city names:** four-letter names like `Iasi` or `Arad` need
+> near-exact spelling — one wrong letter is too large a change in such a short
+> word to match confidently. Typo tolerance works best on normal-length names
+> like `Temisoara` or `Konstanta`.
 
 ### Alternative: run with Docker
 
