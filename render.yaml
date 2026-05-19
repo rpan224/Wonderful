@@ -1,0 +1,8 @@
+# One-click deploy to Render: New > Blueprint, then connect this repo.
+# Render builds the Dockerfile and gives the service a public HTTPS URL.
+services:
+  - type: web
+    name: mariacare-search-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
