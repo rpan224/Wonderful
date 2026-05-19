@@ -1,0 +1,912 @@
+[
+  {
+    "first_name": "Ionut",
+    "last_name": "Dumitrescu",
+    "clinic_name": "Clinica Cluj-Napoca Care",
+    "location": "Cluj-Napoca",
+    "speciality": "Psychiatry",
+    "address": "Strada Victoriei 29",
+    "phone": "+40-279-189-704",
+    "email": "ionut.dumitrescu@clinica-cluj-napoca-care.ro",
+    "postal_code": "542417",
+    "county": "Cluj",
+    "years_experience": 3,
+    "education": "Carol Davila University of Medicine and Pharmacy",
+    "languages": [
+      "Italian"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 3.2
+  },
+  {
+    "first_name": "Georgiana",
+    "last_name": "Rusu",
+    "clinic_name": "Clinica Petrosani Care",
+    "location": "Petrosani",
+    "speciality": "Infectious Diseases",
+    "address": "Strada Unirii 72",
+    "phone": "+40-279-529-325",
+    "email": "georgiana.rusu@clinica-petrosani-care.ro",
+    "postal_code": "571029",
+    "county": "Hunedoara",
+    "years_experience": 38,
+    "education": "Victor Babes University of Medicine and Pharmacy",
+    "languages": [
+      "Italian"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 4.3
+  },
+  {
+    "first_name": "Daria",
+    "last_name": "Munteanu",
+    "clinic_name": "Clinica Ploiesti Care",
+    "location": "Ploiesti",
+    "speciality": "Obstetrics and Gynecology",
+    "address": "Strada Florilor 36",
+    "phone": "+40-253-204-194",
+    "email": "daria.munteanu@clinica-ploiesti-care.ro",
+    "postal_code": "498382",
+    "county": "Prahova",
+    "years_experience": 7,
+    "education": "Victor Babes University of Medicine and Pharmacy",
+    "languages": [
+      "English"
+    ],
+    "availability": "Mon-Fri 10:00-18:00",
+    "rating": 4.9
+  },
+  {
+    "first_name": "Alina",
+    "last_name": "Moldovan",
+    "clinic_name": "Clinica Timisoara Care",
+    "location": "Timisoara",
+    "speciality": "Family Medicine",
+    "address": "Strada Aviatorilor 16",
+    "phone": "+40-290-733-982",
+    "email": "alina.moldovan@clinica-timisoara-care.ro",
+    "postal_code": "479201",
+    "county": "Timis",
+    "years_experience": 37,
+    "education": "Iuliu Hatieganu University of Medicine and Pharmacy",
+    "languages": [
+      "Romanian",
+      "Hungarian"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 3.6
+  },
+  {
+    "first_name": "Maria",
+    "last_name": "Iacob",
+    "clinic_name": "Clinica Baia Mare Care",
+    "location": "Baia Mare",
+    "speciality": "Ophthalmology",
+    "address": "Strada Republicii 110",
+    "phone": "+40-245-564-750",
+    "email": "maria.iacob@clinica-baia-mare-care.ro",
+    "postal_code": "974628",
+    "county": "Maramures",
+    "years_experience": 24,
+    "education": "Iuliu Hatieganu University of Medicine and Pharmacy",
+    "languages": [
+      "Spanish"
+    ],
+    "availability": "Mon-Fri 10:00-18:00",
+    "rating": 3.2
+  },
+  {
+    "first_name": "Ana",
+    "last_name": "Matei",
+    "clinic_name": "Clinica Pitesti Care",
+    "location": "Pitesti",
+    "speciality": "Pediatrics",
+    "address": "Strada Grivitei 82",
+    "phone": "+40-230-573-488",
+    "email": "ana.matei@clinica-pitesti-care.ro",
+    "postal_code": "383060",
+    "county": "Arges",
+    "years_experience": 36,
+    "education": "Iuliu Hatieganu University of Medicine and Pharmacy",
+    "languages": [
+      "Hungarian"
+    ],
+    "availability": "Mon-Fri 10:00-18:00",
+    "rating": 4.5
+  },
+  {
+    "first_name": "Stefan",
+    "last_name": "Dragomir",
+    "clinic_name": "Clinica Iasi Care",
+    "location": "Iasi",
+    "speciality": "Gastroenterology",
+    "address": "Strada Libertatii 104",
+    "phone": "+40-282-997-835",
+    "email": "stefan.dragomir@clinica-iasi-care.ro",
+    "postal_code": "429963",
+    "county": "Iasi",
+    "years_experience": 14,
+    "education": "George Emil Palade University of Medicine",
+    "languages": [
+      "German",
+      "French"
+    ],
+    "availability": "Mon-Sat 09:00-14:00",
+    "rating": 3.1
+  },
+  {
+    "first_name": "Florin",
+    "last_name": "Vasilescu",
+    "clinic_name": "Clinica Targoviste Care",
+    "location": "Targoviste",
+    "speciality": "Neurology",
+    "address": "Strada Primaverii 18",
+    "phone": "+40-243-864-698",
+    "email": "florin.vasilescu@clinica-targoviste-care.ro",
+    "postal_code": "549245",
+    "county": "Dambovita",
+    "years_experience": 38,
+    "education": "Grigore T. Popa University of Medicine and Pharmacy",
+    "languages": [
+      "Italian"
+    ],
+    "availability": "Mon-Fri 10:00-18:00",
+    "rating": 4.1
+  },
+  {
+    "first_name": "Radu",
+    "last_name": "Stan",
+    "clinic_name": "Clinica Petrosani Care",
+    "location": "Petrosani",
+    "speciality": "Internal Medicine",
+    "address": "Strada Republicii 97",
+    "phone": "+40-290-263-911",
+    "email": "radu.stan@clinica-petrosani-care.ro",
+    "postal_code": "813536",
+    "county": "Hunedoara",
+    "years_experience": 28,
+    "education": "Ovidius University of Medicine",
+    "languages": [
+      "Spanish"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 3.2
+  },
+  {
+    "first_name": "Florin",
+    "last_name": "Dumitru",
+    "clinic_name": "Clinica Mangalia Care",
+    "location": "Mangalia",
+    "speciality": "Family Medicine",
+    "address": "Strada Tudor Vladimirescu 33",
+    "phone": "+40-278-868-373",
+    "email": "florin.dumitru@clinica-mangalia-care.ro",
+    "postal_code": "905934",
+    "county": "Constanta",
+    "years_experience": 22,
+    "education": "Carol Davila University of Medicine and Pharmacy",
+    "languages": [
+      "Spanish",
+      "Romanian",
+      "Italian"
+    ],
+    "availability": "Mon-Fri 10:00-18:00",
+    "rating": 4.4
+  },
+  {
+    "first_name": "Diana",
+    "last_name": "Stoica",
+    "clinic_name": "Clinica Targoviste Care",
+    "location": "Targoviste",
+    "speciality": "Cardiology",
+    "address": "Strada Castanilor 113",
+    "phone": "+40-223-991-740",
+    "email": "diana.stoica@clinica-targoviste-care.ro",
+    "postal_code": "412942",
+    "county": "Dambovita",
+    "years_experience": 33,
+    "education": "Ovidius University of Medicine",
+    "languages": [
+      "French",
+      "Hungarian",
+      "English"
+    ],
+    "availability": "Mon-Fri 09:00-17:00",
+    "rating": 4.0
+  },
+  {
+    "first_name": "Mihai",
+    "last_name": "Diaconu",
+    "clinic_name": "Clinica Ploiesti Care",
+    "location": "Ploiesti",
+    "speciality": "Rheumatology",
+    "address": "Strada Al. Ioan Cuza 119",
+    "phone": "+40-224-471-999",
+    "email": "mihai.diaconu@clinica-ploiesti-care.ro",
+    "postal_code": "972064",
+    "county": "Prahova",
+    "years_experience": 20,
+    "education": "Iuliu Hatieganu University of Medicine and Pharmacy",
+    "languages": [
+      "Romanian",
+      "Hungarian",
+      "French"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 4.0
+  },
+  {
+    "first_name": "Radu",
+    "last_name": "Chivu",
+    "clinic_name": "Clinica Brasov Care",
+    "location": "Brasov",
+    "speciality": "Pediatrics",
+    "address": "Strada Castanilor 63",
+    "phone": "+40-226-231-775",
+    "email": "radu.chivu@clinica-brasov-care.ro",
+    "postal_code": "598369",
+    "county": "Brasov",
+    "years_experience": 36,
+    "education": "Iuliu Hatieganu University of Medicine and Pharmacy",
+    "languages": [
+      "Spanish"
+    ],
+    "availability": "Mon-Fri 10:00-18:00",
+    "rating": 4.1
+  },
+  {
+    "first_name": "Nicolae",
+    "last_name": "Nistor",
+    "clinic_name": "Clinica Tulcea Care",
+    "location": "Tulcea",
+    "speciality": "Endocrinology",
+    "address": "Strada Aviatorilor 97",
+    "phone": "+40-295-765-482",
+    "email": "nicolae.nistor@clinica-tulcea-care.ro",
+    "postal_code": "559381",
+    "county": "Tulcea",
+    "years_experience": 34,
+    "education": "Grigore T. Popa University of Medicine and Pharmacy",
+    "languages": [
+      "Italian",
+      "English",
+      "French"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 3.8
+  },
+  {
+    "first_name": "Radu",
+    "last_name": "Rusu",
+    "clinic_name": "Clinica Constanta Care",
+    "location": "Constanta",
+    "speciality": "ENT",
+    "address": "Strada Unirii 76",
+    "phone": "+40-290-160-334",
+    "email": "radu.rusu@clinica-constanta-care.ro",
+    "postal_code": "170674",
+    "county": "Constanta",
+    "years_experience": 3,
+    "education": "Victor Babes University of Medicine and Pharmacy",
+    "languages": [
+      "English",
+      "Hungarian",
+      "Spanish"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 3.0
+  },
+  {
+    "first_name": "Nicolae",
+    "last_name": "Rusu",
+    "clinic_name": "Clinica Pitesti Care",
+    "location": "Pitesti",
+    "speciality": "Internal Medicine",
+    "address": "Strada Eroilor 70",
+    "phone": "+40-283-690-584",
+    "email": "nicolae.rusu@clinica-pitesti-care.ro",
+    "postal_code": "354801",
+    "county": "Arges",
+    "years_experience": 31,
+    "education": "Grigore T. Popa University of Medicine and Pharmacy",
+    "languages": [
+      "Italian"
+    ],
+    "availability": "Mon-Fri 09:00-17:00",
+    "rating": 4.9
+  },
+  {
+    "first_name": "Elena",
+    "last_name": "Dumitrescu",
+    "clinic_name": "Clinica Tulcea Care",
+    "location": "Tulcea",
+    "speciality": "Radiology",
+    "address": "Strada Horea 53",
+    "phone": "+40-293-761-200",
+    "email": "elena.dumitrescu@clinica-tulcea-care.ro",
+    "postal_code": "163556",
+    "county": "Tulcea",
+    "years_experience": 26,
+    "education": "George Emil Palade University of Medicine",
+    "languages": [
+      "Spanish",
+      "Italian"
+    ],
+    "availability": "Mon-Fri 10:00-18:00",
+    "rating": 3.1
+  },
+  {
+    "first_name": "Oana",
+    "last_name": "Dumitrescu",
+    "clinic_name": "Clinica Buzau Care",
+    "location": "Buzau",
+    "speciality": "Endocrinology",
+    "address": "Strada Eroilor 69",
+    "phone": "+40-269-355-995",
+    "email": "oana.dumitrescu@clinica-buzau-care.ro",
+    "postal_code": "179046",
+    "county": "Buzau",
+    "years_experience": 29,
+    "education": "Ovidius University of Medicine",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 3.4
+  },
+  {
+    "first_name": "Maria",
+    "last_name": "Vasilescu",
+    "clinic_name": "Clinica Sighetu Marmatiei Care",
+    "location": "Sighetu Marmatiei",
+    "speciality": "Cardiology",
+    "address": "Strada Republicii 119",
+    "phone": "+40-271-318-985",
+    "email": "maria.vasilescu@clinica-sighetu-marmatiei-care.ro",
+    "postal_code": "520521",
+    "county": "Maramures",
+    "years_experience": 4,
+    "education": "Iuliu Hatieganu University of Medicine and Pharmacy",
+    "languages": [
+      "English"
+    ],
+    "availability": "Mon-Sat 09:00-14:00",
+    "rating": 3.8
+  },
+  {
+    "first_name": "Bianca",
+    "last_name": "Stan",
+    "clinic_name": "Clinica Buzau Care",
+    "location": "Buzau",
+    "speciality": "Oncology",
+    "address": "Strada Traian 113",
+    "phone": "+40-252-901-521",
+    "email": "bianca.stan@clinica-buzau-care.ro",
+    "postal_code": "941204",
+    "county": "Buzau",
+    "years_experience": 16,
+    "education": "Victor Babes University of Medicine and Pharmacy",
+    "languages": [
+      "Romanian",
+      "English"
+    ],
+    "availability": "Mon-Fri 09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "first_name": "Oana",
+    "last_name": "Enache",
+    "clinic_name": "Clinica Sibiu Care",
+    "location": "Sibiu",
+    "speciality": "Urology",
+    "address": "Strada Libertatii 110",
+    "phone": "+40-268-458-412",
+    "email": "oana.enache@clinica-sibiu-care.ro",
+    "postal_code": "960394",
+    "county": "Sibiu",
+    "years_experience": 15,
+    "education": "Iuliu Hatieganu University of Medicine and Pharmacy",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 4.6
+  },
+  {
+    "first_name": "Carmen",
+    "last_name": "Matei",
+    "clinic_name": "Clinica Zalau Care",
+    "location": "Zalau",
+    "speciality": "ENT",
+    "address": "Strada Primaverii 111",
+    "phone": "+40-292-621-509",
+    "email": "carmen.matei@clinica-zalau-care.ro",
+    "postal_code": "812526",
+    "county": "Salaj",
+    "years_experience": 35,
+    "education": "Victor Babes University of Medicine and Pharmacy",
+    "languages": [
+      "Spanish"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 3.6
+  },
+  {
+    "first_name": "Elena",
+    "last_name": "Moldovan",
+    "clinic_name": "Clinica Arad Care",
+    "location": "Arad",
+    "speciality": "Nephrology",
+    "address": "Strada Primaverii 5",
+    "phone": "+40-250-546-720",
+    "email": "elena.moldovan@clinica-arad-care.ro",
+    "postal_code": "636265",
+    "county": "Arad",
+    "years_experience": 8,
+    "education": "Grigore T. Popa University of Medicine and Pharmacy",
+    "languages": [
+      "Hungarian"
+    ],
+    "availability": "Tue-Sat 08:30-16:30",
+    "rating": 3.9
+  },
+  {
+    "first_name": "Georgiana",
+    "last_name": "Moldovan",
+    "clinic_name": "Clinica Timisoara Care",
+    "location": "Timisoara",
+    "speciality": "Obstetrics and Gynecology",
+    "address": "Strada Unirii 67",
+    "phone": "+40-218-780-438",
+    "email": "georgiana.moldovan@clinica-timisoara-care.ro",
+    "postal_code": "753425",
+    "county": "Timis",
+    "years_experience": 21,
+    "education": "George Emil Palade University of Medicine",
+    "languages": [
+      "Italian",
+      "Spanish",
+      "English"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 3.7
+  },
+  {
+    "first_name": "Bianca",
+    "last_name": "Dobre",
+    "clinic_name": "Clinica Petrosani Care",
+    "location": "Petrosani",
+    "speciality": "Ophthalmology",
+    "address": "Strada Crinului 53",
+    "phone": "+40-226-296-530",
+    "email": "bianca.dobre@clinica-petrosani-care.ro",
+    "postal_code": "797229",
+    "county": "Hunedoara",
+    "years_experience": 25,
+    "education": "George Emil Palade University of Medicine",
+    "languages": [
+      "German",
+      "Italian"
+    ],
+    "availability": "Mon-Fri 09:00-17:00",
+    "rating": 3.6
+  },
+  {
+    "first_name": "Alina",
+    "last_name": "Chivu",
+    "clinic_name": "Clinica Satu Mare Care",
+    "location": "Satu Mare",
+    "speciality": "Urology",
+    "address": "Strada Aviatorilor 107",
+    "phone": "+40-265-904-693",
+    "email": "alina.chivu@clinica-satu-mare-care.ro",
+    "postal_code": "736130",
+    "county": "Satu Mare",
+    "years_experience": 21,
+    "education": "Grigore T. Popa University of Medicine and Pharmacy",
+    "languages": [
+      "French"
+    ],
+    "availability": "Mon-Sat 09:00-14:00",
+    "rating": 3.6
+  },
+  {
+    "first_name": "Sorin",
+    "last_name": "Iacob",
+    "clinic_name": "Clinica Targu Mures Care",
+    "location": "Targu Mures",
+    "speciality": "Pulmonology",
+    "address": "Strada Rozelor 102",
+    "phone": "+40-294-748-734",
+    "email": "sorin.iacob@clinica-targu-mures-care.ro",
+    "postal_code": "451470",
+    "county": "Mures",
+    "years_experience": 6,
+    "education": "Iuliu Hatieganu University of Medicine and Pharmacy",
+    "languages": [
+      "English",
+      "Italian",
+      "Romanian"
+    ],
+    "availability": "Mon-Fri 10:00-18:00",
+    "rating": 3.6
+  },
+  {
+    "first_name": "Radu",
+    "last_name": "Munteanu",
+    "clinic_name": "Clinica Bacau Care",
+    "location": "Bacau",
+    "speciality": "Neurology",
+    "address": "Strada Unirii 6",
+    "phone": "+40-219-566-524",
+    "email": "radu.munteanu@clinica-bacau-care.ro",
+    "postal_code": "760356",
+    "county": "Bacau",
+    "years_experience": 37,
+    "education": "Iuliu Hatieganu University of Medicine and Pharmacy",
+    "languages": [
+      "German"
+    ],
+    "availability": "Mon-Sat 09:00-14:00",
+    "rating": 4.2
+  },
+  {
+    "first_name": "Claudia",
+    "last_name": "Dumitru",
+    "clinic_name": "Clinica Buzau Care",
+    "location": "Buzau",
+    "speciality": "Neurology",
+    "address": "Strada Muncii 89",
+    "phone": "+40-223-897-535",
+    "email": "claudia.dumitru@clinica-buzau-care.ro",
+    "postal_code": "329471",
+    "county": "Buzau",
+    "years_experience": 12,
+    "education": "George Emil Palade University of Medicine",
+    "languages": [
+      "Spanish"
+    ],
+    "availability": "Tue-Sat 08:30-16:30",
+    "rating": 4.7
+  },
+  {
+    "first_name": "Sorin",
+    "last_name": "Ionescu",
+    "clinic_name": "Clinica Ramnicu Valcea Care",
+    "location": "Ramnicu Valcea",
+    "speciality": "Gastroenterology",
+    "address": "Strada Independentei 59",
+    "phone": "+40-277-672-709",
+    "email": "sorin.ionescu@clinica-ramnicu-valcea-care.ro",
+    "postal_code": "432711",
+    "county": "Valcea",
+    "years_experience": 29,
+    "education": "Ovidius University of Medicine",
+    "languages": [
+      "Spanish"
+    ],
+    "availability": "Tue-Sat 08:30-16:30",
+    "rating": 3.9
+  },
+  {
+    "first_name": "Diana",
+    "last_name": "Stancu",
+    "clinic_name": "Clinica Vaslui Care",
+    "location": "Vaslui",
+    "speciality": "Oncology",
+    "address": "Strada Castanilor 111",
+    "phone": "+40-291-383-884",
+    "email": "diana.stancu@clinica-vaslui-care.ro",
+    "postal_code": "915451",
+    "county": "Vaslui",
+    "years_experience": 34,
+    "education": "Grigore T. Popa University of Medicine and Pharmacy",
+    "languages": [
+      "German",
+      "French"
+    ],
+    "availability": "Mon-Fri 09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "first_name": "Vlad",
+    "last_name": "Georgescu",
+    "clinic_name": "Clinica Constanta Care",
+    "location": "Constanta",
+    "speciality": "Ophthalmology",
+    "address": "Strada Victoriei 35",
+    "phone": "+40-229-336-492",
+    "email": "vlad.georgescu@clinica-constanta-care.ro",
+    "postal_code": "827659",
+    "county": "Constanta",
+    "years_experience": 10,
+    "education": "George Emil Palade University of Medicine",
+    "languages": [
+      "French",
+      "Hungarian"
+    ],
+    "availability": "Mon-Fri 09:00-17:00",
+    "rating": 3.2
+  },
+  {
+    "first_name": "Ioana",
+    "last_name": "Ilie",
+    "clinic_name": "Clinica Giurgiu Care",
+    "location": "Giurgiu",
+    "speciality": "ENT",
+    "address": "Strada Aviatorilor 60",
+    "phone": "+40-259-888-698",
+    "email": "ioana.ilie@clinica-giurgiu-care.ro",
+    "postal_code": "829308",
+    "county": "Giurgiu",
+    "years_experience": 2,
+    "education": "Ovidius University of Medicine",
+    "languages": [
+      "Romanian",
+      "English"
+    ],
+    "availability": "Mon-Sat 09:00-14:00",
+    "rating": 4.7
+  },
+  {
+    "first_name": "Claudia",
+    "last_name": "Popescu",
+    "clinic_name": "Clinica Focsani Care",
+    "location": "Focsani",
+    "speciality": "Ophthalmology",
+    "address": "Strada Al. Ioan Cuza 50",
+    "phone": "+40-287-325-599",
+    "email": "claudia.popescu@clinica-focsani-care.ro",
+    "postal_code": "330080",
+    "county": "Vrancea",
+    "years_experience": 18,
+    "education": "Grigore T. Popa University of Medicine and Pharmacy",
+    "languages": [
+      "Hungarian",
+      "Italian"
+    ],
+    "availability": "Mon-Sat 09:00-14:00",
+    "rating": 4.5
+  },
+  {
+    "first_name": "Andrei",
+    "last_name": "Dumitru",
+    "clinic_name": "Clinica Alba Iulia Care",
+    "location": "Alba Iulia",
+    "speciality": "Urology",
+    "address": "Strada Castanilor 22",
+    "phone": "+40-260-706-677",
+    "email": "andrei.dumitru@clinica-alba-iulia-care.ro",
+    "postal_code": "795205",
+    "county": "Alba",
+    "years_experience": 2,
+    "education": "Carol Davila University of Medicine and Pharmacy",
+    "languages": [
+      "English",
+      "Hungarian"
+    ],
+    "availability": "Mon-Sat 09:00-14:00",
+    "rating": 4.1
+  },
+  {
+    "first_name": "Mihai",
+    "last_name": "Georgescu",
+    "clinic_name": "Clinica Arad Care",
+    "location": "Arad",
+    "speciality": "Dermatology",
+    "address": "Strada Primaverii 49",
+    "phone": "+40-258-384-870",
+    "email": "mihai.georgescu@clinica-arad-care.ro",
+    "postal_code": "972335",
+    "county": "Arad",
+    "years_experience": 27,
+    "education": "Victor Babes University of Medicine and Pharmacy",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 3.7
+  },
+  {
+    "first_name": "Claudia",
+    "last_name": "Popescu",
+    "clinic_name": "Clinica Sighetu Marmatiei Care",
+    "location": "Sighetu Marmatiei",
+    "speciality": "Dermatology",
+    "address": "Strada Garii 29",
+    "phone": "+40-241-304-959",
+    "email": "claudia.popescu@clinica-sighetu-marmatiei-care.ro",
+    "postal_code": "121369",
+    "county": "Maramures",
+    "years_experience": 40,
+    "education": "Iuliu Hatieganu University of Medicine and Pharmacy",
+    "languages": [
+      "Romanian",
+      "Italian",
+      "Spanish"
+    ],
+    "availability": "Mon-Fri 09:00-17:00",
+    "rating": 4.5
+  },
+  {
+    "first_name": "Mihai",
+    "last_name": "Stanescu",
+    "clinic_name": "Clinica Oradea Care",
+    "location": "Oradea",
+    "speciality": "Nephrology",
+    "address": "Strada Eroilor 60",
+    "phone": "+40-224-896-938",
+    "email": "mihai.stanescu@clinica-oradea-care.ro",
+    "postal_code": "271720",
+    "county": "Bihor",
+    "years_experience": 20,
+    "education": "Carol Davila University of Medicine and Pharmacy",
+    "languages": [
+      "French",
+      "Spanish",
+      "English"
+    ],
+    "availability": "Tue-Sat 08:30-16:30",
+    "rating": 4.2
+  },
+  {
+    "first_name": "Andrei",
+    "last_name": "Dobre",
+    "clinic_name": "Clinica Drobeta-Turnu Severin Care",
+    "location": "Drobeta-Turnu Severin",
+    "speciality": "Urology",
+    "address": "Strada Stefan cel Mare 92",
+    "phone": "+40-290-348-204",
+    "email": "andrei.dobre@clinica-drobeta-turnu-severin-care.ro",
+    "postal_code": "831059",
+    "county": "Mehedinti",
+    "years_experience": 20,
+    "education": "George Emil Palade University of Medicine",
+    "languages": [
+      "Romanian"
+    ],
+    "availability": "Tue-Sat 08:30-16:30",
+    "rating": 4.2
+  },
+  {
+    "first_name": "Oana",
+    "last_name": "Dumitrescu",
+    "clinic_name": "Clinica Drobeta-Turnu Severin Care",
+    "location": "Drobeta-Turnu Severin",
+    "speciality": "Dermatology",
+    "address": "Strada Garii 69",
+    "phone": "+40-292-449-112",
+    "email": "oana.dumitrescu@clinica-drobeta-turnu-severin-care.ro",
+    "postal_code": "990844",
+    "county": "Mehedinti",
+    "years_experience": 27,
+    "education": "Grigore T. Popa University of Medicine and Pharmacy",
+    "languages": [
+      "Italian",
+      "French"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 3.1
+  },
+  {
+    "first_name": "Diana",
+    "last_name": "Diaconu",
+    "clinic_name": "Clinica Lugoj Care",
+    "location": "Lugoj",
+    "speciality": "Family Medicine",
+    "address": "Strada Teilor 20",
+    "phone": "+40-293-376-730",
+    "email": "diana.diaconu@clinica-lugoj-care.ro",
+    "postal_code": "947458",
+    "county": "Timis",
+    "years_experience": 35,
+    "education": "Grigore T. Popa University of Medicine and Pharmacy",
+    "languages": [
+      "English",
+      "Italian"
+    ],
+    "availability": "Mon-Sat 09:00-14:00",
+    "rating": 4.0
+  },
+  {
+    "first_name": "Diana",
+    "last_name": "Neagu",
+    "clinic_name": "Clinica Hunedoara Care",
+    "location": "Hunedoara",
+    "speciality": "Psychiatry",
+    "address": "Strada Florilor 110",
+    "phone": "+40-245-561-349",
+    "email": "diana.neagu@clinica-hunedoara-care.ro",
+    "postal_code": "886931",
+    "county": "Hunedoara",
+    "years_experience": 30,
+    "education": "Ovidius University of Medicine",
+    "languages": [
+      "Spanish"
+    ],
+    "availability": "Tue-Sat 08:30-16:30",
+    "rating": 4.9
+  },
+  {
+    "first_name": "Carmen",
+    "last_name": "Dumitru",
+    "clinic_name": "Clinica Alba Iulia Care",
+    "location": "Alba Iulia",
+    "speciality": "Cardiology",
+    "address": "Strada Rozelor 109",
+    "phone": "+40-243-448-386",
+    "email": "carmen.dumitru@clinica-alba-iulia-care.ro",
+    "postal_code": "725113",
+    "county": "Alba",
+    "years_experience": 18,
+    "education": "Ovidius University of Medicine",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "availability": "Mon-Fri 08:00-16:00",
+    "rating": 3.4
+  },
+  {
+    "first_name": "Nicolae",
+    "last_name": "Matei",
+    "clinic_name": "Clinica Brasov Care",
+    "location": "Brasov",
+    "speciality": "Gastroenterology",
+    "address": "Strada Castanilor 53",
+    "phone": "+40-292-828-602",
+    "email": "nicolae.matei@clinica-brasov-care.ro",
+    "postal_code": "569945",
+    "county": "Brasov",
+    "years_experience": 2,
+    "education": "Carol Davila University of Medicine and Pharmacy",
+    "languages": [
+      "Hungarian",
+      "English"
+    ],
+    "availability": "Mon-Fri 10:00-18:00",
+    "rating": 4.4
+  },
+  {
+    "first_name": "Radu",
+    "last_name": "Dumitru",
+    "clinic_name": "Clinica Buzau Care",
+    "location": "Buzau",
+    "speciality": "Ophthalmology",
+    "address": "Strada Crinului 75",
+    "phone": "+40-264-863-663",
+    "email": "radu.dumitru@clinica-buzau-care.ro",
+    "postal_code": "446859",
+    "county": "Buzau",
+    "years_experience": 23,
+    "education": "George Emil Palade University of Medicine",
+    "languages": [
+      "German",
+      "Hungarian"
+    ],
+    "availability": "Mon-Sat 09:00-14:00",
+    "rating": 4.1
+  },
+  {
+    "first_name": "Vlad",
+    "last_name": "Dobre",
+    "clinic_name": "Clinica Botosani Care",
+    "location": "Botosani",
+    "speciality": "Gastroenterology",
+    "address": "Strada Independentei 93",
+    "phone": "+40-278-880-806",
+    "email": "vlad.dobre@clinica-botosani-care.ro",
+    "postal_code": "294143",
+    "county": "Botosani",
+    "years_experience": 13,
+    "education": "Iuliu Hatieganu University of Medicine and Pharmacy",
+    "languages": [
+      "French"
+    ],
+    "availability": "Mon-Sat 09:00-14:00",
+    "rating": 3.2
+  }
+]
